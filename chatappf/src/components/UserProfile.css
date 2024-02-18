@@ -1,0 +1,102 @@
+/* UserProfile.css */
+
+.user-container{
+  max-width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 52px;
+  text-align: center;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.user-container h2 {
+  color: #3498db; 
+  font-size: 24px; 
+  margin-bottom: 20px; /* Add some space below the heading */
+  background-color: #e4dfe8;
+  border-radius: 8px;
+ font-weight: 600; 
+}
+.user-container h2:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.user-container p {
+  color: #555; /* Set the color to a dark gray */
+  font-size: 16px; /* Set the font size for paragraphs */
+  margin: 10px 0;
+}
+
+.user-container:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.logout-btn{
+  border: none;
+ color: #fff;
+ background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+ border-radius: 20px;
+ background-size: 100% auto;
+ font-family: inherit;
+ font-size: 17px;
+ padding: 0.6em 1.5em;
+}
+.logout-btn:hover{
+  background-position: right center;
+  background-size: 200% auto;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse512 1.5s infinite;
+
+}
+
+.search-result {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+
+
+
+
+.pagination button{
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.pagination button:hover{
+  background-color: #c82333;
+}
+@keyframes pulse512 {
+  0% {
+   box-shadow: 0 0 0 0 #05bada66;
+  }
+ 
+  70% {
+   box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+  }
+ 
+  100% {
+   box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+  }
+ }

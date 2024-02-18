@@ -1,0 +1,58 @@
+/* updateForm.css */
+
+.update-form-container {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.update-form-container h3 {
+  text-align: center;
+  color: #333;
+}
+
+.update-form-container label {
+  display: block;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+.update-form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.update-form-container button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.update-form-container button:hover {
+  background-color: #45a049;
+}
+
+.update-form-container button + button {
+  background-color: #ccc;
+  color: #333;
+  margin-left: 10px;
+}
+
+.update-form-container button + button:hover {
+  background-color: #bbb;
+}
